@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="local/atx_suscript/db" VERSION="2013081900" COMMENT="XMLDB file for Moodle local/atx_suscript" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd">
+    <TABLES>
+        
+        <TABLE NAME="local_atx_suscript_emails" COMMENT="">
+            <FIELDS>
+                <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" UNSIGNED="true" SEQUENCE="true" NEXT="email"/>
+                <FIELD NAME="email" TYPE="char" LENGTH="255" NOTNULL="true" PREVIOUS="id" NEXT="timecreated"/>
+                <FIELD NAME="timecreated" TYPE="char" LENGTH="255" NOTNULL="true" PREVIOUS="email"/>
+            </FIELDS>
+            <KEYS>
+                <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+            </KEYS>
+        </TABLE>
+    </TABLES>
+</XMLDB>
