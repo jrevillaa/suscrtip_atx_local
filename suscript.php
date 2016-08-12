@@ -25,7 +25,7 @@ $DB->insert_record('local_atx_suscript_emails',  $clase,  $returnid=true,  $bulk
 
 $to = $clase->email;
 $subject = "Welcom";
-$txt = "THANKS TO SUBSCRIBE";
+$txt = "Gracias por suscribirse";
 $headers = "From: crojas@atypax.com" . "\r\n" .
 "CC: jair@atypax.com, crojas@atypax.com";
 
