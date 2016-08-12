@@ -31,5 +31,5 @@ $headers = "From: crojas@atypax.com" . "\r\n" .
 
 if(mail($to,$subject,$txt,$headers)
 ){
-  redirect($CFG->wwwroot, 'THANKS TO SUBSCRIBE', 10);
+  redirect($CFG->wwwroot, 'Gracias por suscribirte.', 10);
 }
